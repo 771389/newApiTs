@@ -4,12 +4,15 @@ const res = require('express/lib/response');
 const server = express();
 const filmes = require('./src/data/filmes.json')
 
+
 server.get('/filmes', (req,res) => {
 
 
     return res.json(filmes)
 });
 
-server.listen(3000, () => {
-console.log('o servidor está funcionando')
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`Servidor rodando na porta ${port}`);
 });
