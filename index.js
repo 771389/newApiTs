@@ -1,18 +1,40 @@
 const express = require('express');
-const req = require('express/lib/request');
-const res = require('express/lib/response');
-const server = express();
-const filmes = require('./src/data/filmes.json')
+const filmes = require('./routes/filmes.json')
+const versão = require('./routes/versao')
+const tv = require('./routes/tv.json')
+const port = process.env.PORT || 3000;
 
+const app = express();
 
-server.get('/filmes', (req,res) => {
-
+app.get('/home/filmes', (req,res) => {
 
     return res.json(filmes)
 });
 
-const port = process.env.PORT || 3000;
+app.get('/home/lancamentos', (req,res) => {
 
-app.listen(port, () => {
+  return res.json(lancamentos)
+});
+
+
+app.get('/home/versao', (req,res) => {
+
+  return res.json(versão)
+});
+
+
+
+app.get('/home/tv', (req,res) => {
+
+  return res.json(tv)
+});
+
+
+
+
+
+
+
+app.listen(3000, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
