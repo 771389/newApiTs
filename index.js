@@ -33,6 +33,26 @@ app.get('/home/tv', (req,res) => {
 
 
 
+// Endpoint de pesquisa
+app.get('/home/pesquisa', (req, res) => {
+  const tvgName = req.query.tvgName; // Obtém o parâmetro "tvgName" da URL
+  if (!tvgName) {
+      return res.status(400).json({ erro: 'Parâmetro "tvgName" é obrigatório.' });
+  }
+
+  // Filtra os filmes pelo campo "tvgName"
+  const resultados = filmes.filter(filme =>
+      filme.tvgName.toLowerCase().includes(tvgName.toLowerCase())
+  );
+
+  res.json(resultados); // Retorna os resultados como JSON
+});
+
+
+
+
+
+
 
 
 app.listen(3000, () => {
