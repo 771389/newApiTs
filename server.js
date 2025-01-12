@@ -1,86 +1,45 @@
 const express = require('express');
-const filmes = require('./routes/filmes.json');
+const jwt = require('jsonwebtoken');
+const expressJwt = require('express-jwt');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Middleware para garantir que o Express entenda o JSON
-app.use(express.json());
+// Chave secreta para gerar e verificar os tokens
+const SECRET_KEY = 'androidx&clubedosfilmes';
 
-// Rota para retornar filmes com paginação
-app.get('/home/filmes', (req, res) => {
-  try {
-    // Parâmetros de consulta: página e limite
-    const page = parseInt(req.query.page) || 1; // Página atual, padrão é 1
-    const limit = parseInt(req.query.limit) || 20; // Limite de itens por página, padrão é 20
+// Carregar os arquivos JSON
+const adultos = require('./routes/adultos.json');
+const canais1 = require('./routes/canais1.json');
+const cineprime = require('./routes/cineprime.json');
 
-    // Calcula os índices para retornar apenas uma parte dos filmes
-    const startIndex = (page - 1) * limit;
-    const endIndex = page * limit;
+// Middleware para verificar o token
+const authMiddleware = expressJwt({ secret: SECRET_KEY, algorithms: ['HS256'] }).unless({ path: ['/login'] });
 
-    // Filtra os filmes com base no índice calculado
-    const filmesPagina = filmes.slice(startIndex, endIndex);
+// Rota para fazer login e gerar o token
+app.post('/login', (req, res) => {
+  // Aqui você deve verificar o usuário e senha de alguma forma (simulado aqui)
+  const { usuario, senha } = req.body;
 
-    if (filmesPagina.length === 0) {
-      return res.status(404).json({ erro: 'Nenhum filme encontrado.' });
-    }
-
-    // Resposta com a paginação
-    res.json({
-      page: page,
-      limit: limit,
-      total: filmes.length,
-      filmes: filmesPagina
-    });
-  } catch (err) {
-    console.error(err); // Log do erro para debug
-    res.status(500).json({ erro: 'Erro interno no servidor.' });
+  // Se as credenciais estiverem corretas, gera o token
+  if (usuario === 'usuario' && senha === 'senha') {
+    const token = jwt.sign({ usuario }, SECRET_KEY, { expiresIn: '1h' }); // Token expira em 1 hora
+    return res.json({ token });
   }
+
+  return res.status(401).json({ erro: 'Usuário ou senha inválidos.' });
 });
 
-// Rota para pesquisar filmes por nome ou qualquer termo em qualquer campo do filme
-app.get('/home/pesquisa', (req, res) => {
-  try {
-    const query = req.query.query;  // Recebe o parâmetro de pesquisa da URL
-    if (!query) {
-      return res.status(400).json({ erro: 'Parâmetro "query" é obrigatório.' });
-    }
+// Proteger as rotas com o middleware de autenticação
+app.use(authMiddleware);
 
-    // Parâmetros de página e limite
-    const page = parseInt(req.query.page) || 1; // Página atual, padrão é 1
-    const limit = parseInt(req.query.limit) || 20; // Limite de itens por página, padrão é 20
+// Rota para retornar o arquivo adultos.json
+app.get('/home/adultos', (req, res) => res.json(adultos));
 
-    // Filtra os filmes com base no termo de pesquisa que aparece em qualquer campo do filme
-    const filmesEncontrados = filmes.filter(filme =>
-      Object.values(filme).some(value =>
-        value.toString().toLowerCase().includes(query.toLowerCase())
-      )
-    );
+// Rota para retornar o arquivo canais1.json
+app.get('/home/canais1', (req, res) => res.json(canais1));
 
-    // Calcula os índices para retornar apenas uma parte dos filmes
-    const startIndex = (page - 1) * limit;
-    const endIndex = page * limit;
+// Rota para retornar o arquivo cineprime.json
+app.get('/home/cineprime', (req, res) => res.json(cineprime));
 
-    // Filtra os filmes encontrados com base no índice calculado
-    const filmesPagina = filmesEncontrados.slice(startIndex, endIndex);
-
-    if (filmesPagina.length === 0) {
-      return res.status(404).json({ erro: 'Nenhum filme encontrado.' });
-    }
-
-    // Resposta com a paginação
-    res.json({
-      page: page,
-      limit: limit,
-      total: filmesEncontrados.length,
-      filmes: filmesPagina
-    });
-  } catch (err) {
-    console.error(err);  // Log do erro para debug
-    res.status(500).json({ erro: 'Erro interno no servidor.' });
-  }
-});
-
-// Iniciar o servidor
-app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${port}`);
-});
+// Inicia o servidor
+app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
