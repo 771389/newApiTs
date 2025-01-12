@@ -12,6 +12,9 @@ const adultos = require('./routes/adultos.json');
 const canais1 = require('./routes/canais1.json');
 const cineprime = require('./routes/cineprime.json');
 
+// Middleware para parsear o corpo da requisição como JSON
+app.use(express.json());  // Agora o corpo da requisição será automaticamente interpretado como JSON
+
 // Middleware para verificar o token
 const authMiddleware = expressJwt({ secret: SECRET_KEY, algorithms: ['HS256'] }).unless({ path: ['/login'] });
 
