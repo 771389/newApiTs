@@ -40,13 +40,13 @@ app.post('/login', (req, res) => {
 app.use(authMiddleware);
 
 // Rota para retornar o arquivo adultos.json
-app.get('routes/adultos', (req, res) => res.json(adultos));
+app.get('/routes/adultos', (req, res) => res.json(adultos));
 
 // Rota para retornar o arquivo canais1.json
-app.get('routes/canais1', (req, res) => res.json(canais1));
+app.get('/routes/canais1', (req, res) => res.json(canais1));
 
 // Rota para retornar o arquivo cineprime.json
-app.get('routes/cineprime', (req, res) => res.json(cineprime));
+app.get('/routes/cineprime', (req, res) => res.json(cineprime));
 
 // Inicia o servidor
 app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
