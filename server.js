@@ -11,6 +11,8 @@ const SECRET_KEY = 'androidx&clubedosfilmes';
 const adultos = require('./routes/adultos.json');
 const canais1 = require('./routes/canais1.json');
 const cineprime = require('./routes/cineprime.json');
+const pegasus = require('./routes/pegasus.json');
+
 
 // Middleware para interpretar o corpo das requisições como JSON
 app.use(express.json());  // Adicionado para lidar com dados JSON
@@ -47,6 +49,10 @@ app.get('/routes/canais1', (req, res) => res.json(canais1));
 
 // Rota para retornar o arquivo cineprime.json
 app.get('/routes/cineprime', (req, res) => res.json(cineprime));
+
+// Rota para retornar o arquivo pegasus.json
+app.get('/routes/pegasus', (req, res) => res.json(pegasus));
+
 
 // Inicia o servidor
 app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
