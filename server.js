@@ -1,6 +1,10 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
+<<<<<<< HEAD
 const expressJwt = require('express-jwt');  // Importa corretamente
+=======
+const { expressjwt } = require('express-jwt');  // Corrigido aqui
+>>>>>>> 14d8f59 (alteraçao)
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -13,7 +17,11 @@ const canais1 = require('./routes/canais1.json');
 const cineprime = require('./routes/cineprime.json');
 
 // Middleware para verificar o token
+<<<<<<< HEAD
 const authMiddleware = expressJwt({
+=======
+const authMiddleware = expressjwt({
+>>>>>>> 14d8f59 (alteraçao)
   secret: SECRET_KEY,
   algorithms: ['HS256']
 }).unless({
