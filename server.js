@@ -28,7 +28,7 @@ app.post('/login', (req, res) => {
   const { usuario, senha } = req.body;
 
   // Se as credenciais estiverem corretas, gera o token
-  if (usuario === 'usuario' && senha === 'senha') {
+  if (usuario === 'vitor' && senha === 'spazio3132') {
     const token = jwt.sign({ usuario }, SECRET_KEY, { expiresIn: '1h' }); // Token expira em 1 hora
     return res.json({ token });
   }
