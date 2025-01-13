@@ -1,6 +1,6 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const expressJwt = require('express-jwt');
+const expressJwt = require('express-jwt');  // Importa corretamente
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -12,15 +12,16 @@ const adultos = require('./routes/adultos.json');
 const canais1 = require('./routes/canais1.json');
 const cineprime = require('./routes/cineprime.json');
 
-// Middleware para parsear o corpo da requisição como JSON
-app.use(express.json());  // Agora o corpo da requisição será automaticamente interpretado como JSON
-
 // Middleware para verificar o token
-const authMiddleware = expressJwt({ secret: SECRET_KEY, algorithms: ['HS256'] }).unless({ path: ['/login'] });
+const authMiddleware = expressJwt({
+  secret: SECRET_KEY,
+  algorithms: ['HS256']
+}).unless({
+  path: ['/login'] // Apenas a rota de login não exige autenticação
+});
 
 // Rota para fazer login e gerar o token
 app.post('/login', (req, res) => {
-  // Aqui você deve verificar o usuário e senha de alguma forma (simulado aqui)
   const { usuario, senha } = req.body;
 
   // Se as credenciais estiverem corretas, gera o token
