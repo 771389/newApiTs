@@ -1,0 +1,18 @@
+[
+    
+    {
+        "category_id": "1",
+        "category_name": "adultos",
+        "parent_id": 0
+      },
+      {
+        "category_id": "2",
+        "category_name": "canais1",
+        "parent_id": 0
+      },
+      {
+        "category_id": "3",
+        "category_name": "cineprime",
+        "parent_id": 0
+      }
+  ]
