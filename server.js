@@ -17,15 +17,8 @@ const canais1 = require('./routes/canais1.json');
 const cineprime = require('./routes/cineprime.json');
 
 // Middleware para verificar o token
-<<<<<<< HEAD
 const authMiddleware = expressJwt({
-=======
-const authMiddleware = expressjwt({
->>>>>>> 14d8f59 (alteraçao)
   secret: SECRET_KEY,
-  algorithms: ['HS256']
-}).unless({
-  path: ['/login'] // Apenas a rota de login não exige autenticação
 });
 
 // Rota para fazer login e gerar o token
