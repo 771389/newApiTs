@@ -1,12 +1,8 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
-<<<<<<< HEAD
-const expressJwt = require('express-jwt');  // Importa corretamente
-=======
-const { expressjwt } = require('express-jwt');  // Corrigido aqui
->>>>>>> 14d8f59 (alteraçao)
+const { expressjwt: expressJwt } = require('express-jwt');  // Corrigido para a importação correta
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 // Chave secreta para gerar e verificar os tokens
 const SECRET_KEY = 'androidx&clubedosfilmes';
@@ -16,9 +12,15 @@ const adultos = require('./routes/adultos.json');
 const canais1 = require('./routes/canais1.json');
 const cineprime = require('./routes/cineprime.json');
 
+// Middleware para interpretar o corpo das requisições como JSON
+app.use(express.json());  // Adicionado para lidar com dados JSON
+
 // Middleware para verificar o token
 const authMiddleware = expressJwt({
   secret: SECRET_KEY,
+  algorithms: ['HS256']
+}).unless({
+  path: ['/login'] // Apenas a rota de login não exige autenticação
 });
 
 // Rota para fazer login e gerar o token
