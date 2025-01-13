@@ -14,5 +14,11 @@
         "category_id": "3",
         "category_name": "cineprime",
         "parent_id": 0
+      },
+
+      {
+        "category_id": "4",
+        "category_name": "pegasus",
+        "parent_id": 0
       }
   ]

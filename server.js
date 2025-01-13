@@ -12,6 +12,7 @@ const adultos = require('./routes/adultos.json');
 const canais1 = require('./routes/canais1.json');
 const cineprime = require('./routes/cineprime.json');
 const pegasus = require('./routes/pegasus.json');
+const categorias = require('./routes/categorias.json');
 
 
 // Middleware para interpretar o corpo das requisições como JSON
@@ -52,6 +53,10 @@ app.get('/routes/cineprime', (req, res) => res.json(cineprime));
 
 // Rota para retornar o arquivo pegasus.json
 app.get('/routes/pegasus', (req, res) => res.json(pegasus));
+
+
+// Rota para retornar o arquivo pegasus.json
+app.get('/routes/categorias', (req, res) => res.json(categorias));
 
 
 // Inicia o servidor
