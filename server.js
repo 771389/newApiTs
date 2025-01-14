@@ -8,12 +8,12 @@ const port = process.env.PORT || 3001;
 const SECRET_KEY = 'androidx&clubedosfilmes';
 
 // Carregar os arquivos JSON
-const adultos = require('./routes/adultos.json');
-const canais1 = require('./routes/canais1.json');
-const cineprime = require('./routes/cineprime.json');
-const pegasus = require('./routes/pegasus.json');
+const adultos = require('./routes/server.iptvxxx.net.json');
+const canais1 = require('./routes/84.16.253.11.json');
+const cineprime = require('./routes/178.162.197.177.json');
+const pegasus = require('./routes/pegasus.tvvip.live.json');
 const categorias = require('./routes/categorias.json');
-const authxplus = require('./routes/authxplus.json');
+const authxplus = require('./routes/authxplus-2.xyz.json');
 
 
 // Middleware para interpretar o corpo das requisições como JSON
@@ -44,23 +44,23 @@ app.post('/login', (req, res) => {
 app.use(authMiddleware);
 
 // Rota para retornar o arquivo adultos.json
-app.get('/routes/adultos', (req, res) => res.json(adultos));
+app.get('/routes/server.iptvxxx.net', (req, res) => res.json(adultos));
 
 // Rota para retornar o arquivo canais1.json
-app.get('/routes/canais1', (req, res) => res.json(canais1));
+app.get('/routes/84.16.253.11', (req, res) => res.json(canais1));
 
 // Rota para retornar o arquivo cineprime.json
-app.get('/routes/cineprime', (req, res) => res.json(cineprime));
+app.get('/routes/178.162.197.177', (req, res) => res.json(cineprime));
 
 // Rota para retornar o arquivo pegasus.json
-app.get('/routes/pegasus', (req, res) => res.json(pegasus));
+app.get('/routes/pegasus.tvvip.live', (req, res) => res.json(pegasus));
 
 
 // Rota para retornar o arquivo pegasus.json
 app.get('/routes/categorias', (req, res) => res.json(categorias));
 
 // Rota para retornar o arquivo pegasus.json
-app.get('/routes/authxplus', (req, res) => res.json(authxplus));
+app.get('/routes/authxplus-2.xyz', (req, res) => res.json(authxplus));
 
 
 // Inicia o servidor
