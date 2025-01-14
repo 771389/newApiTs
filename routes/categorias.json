@@ -26,8 +26,25 @@
       "category_id": "5",
          "category_name": "authxplus-2.xyz",
          "parent_id": 0
-       }
+       },
       
+       {
+        "category_id": "6",
+           "category_name": "dns.cebola.pro",
+           "parent_id": 0
+         },
+
+         {
+          "category_id": "7",
+             "category_name": "uniplayuhd.cdn23.click",
+             "parent_id": 0
+           },
+
+           {
+            "category_id": "8",
+               "category_name": "vipy.pro",
+               "parent_id": 0
+             }
     
 ]
 
