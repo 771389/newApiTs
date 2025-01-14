@@ -1,8 +1,8 @@
 {
-    "servidores": {
-        "6faed456-8ebb-40af-8f61-73d705a40848": {
-            "id": "6faed456-8ebb-40af-8f61-73d705a40848",
-            "servidor": "Servidor 100",
+    "servidores2": {
+        "be14016d-3bf2-43cd-9c9c-c450b1ef8b3b": {
+            "id": "be14016d-3bf2-43cd-9c9c-c450b1ef8b3b",
+            "servidor": "Servidor 1",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-mblOBbX957",
@@ -17,9 +17,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "4cd15ff8-d979-4358-9926-fa47c5510880": {
-            "id": "4cd15ff8-d979-4358-9926-fa47c5510880",
-            "servidor": "Servidor 101",
+        "ffaf7b67-f3ba-4f0c-8223-4d45034c0bcb": {
+            "id": "ffaf7b67-f3ba-4f0c-8223-4d45034c0bcb",
+            "servidor": "Servidor 2",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "Cinema-V3-KfLGiYfSe5",
@@ -34,9 +34,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "87aeb475-0094-4ea4-9b18-3683c7d69233": {
-            "id": "87aeb475-0094-4ea4-9b18-3683c7d69233",
-            "servidor": "Servidor 102",
+        "13dbdd33-a9a0-4d66-a5a4-fd9bbb9d1dbd": {
+            "id": "13dbdd33-a9a0-4d66-a5a4-fd9bbb9d1dbd",
+            "servidor": "Servidor 3",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-UkfPr4UcH8",
@@ -51,9 +51,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "2121b37f-30a7-4dd4-81fa-29c6989d0c05": {
-            "id": "2121b37f-30a7-4dd4-81fa-29c6989d0c05",
-            "servidor": "Servidor 103",
+        "e1d53ca7-7daf-4e76-8398-19a4db67d6dc": {
+            "id": "e1d53ca7-7daf-4e76-8398-19a4db67d6dc",
+            "servidor": "Servidor 4",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-XH4vlrxljd",
@@ -68,9 +68,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "65d84989-138b-4c54-b36d-1e45a96e5116": {
-            "id": "65d84989-138b-4c54-b36d-1e45a96e5116",
-            "servidor": "Servidor 104",
+        "328bea61-5b84-4112-8a3b-a7e6db0aa598": {
+            "id": "328bea61-5b84-4112-8a3b-a7e6db0aa598",
+            "servidor": "Servidor 5",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain2-0FRL8tjNX5",
@@ -85,9 +85,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "419a8d31-9367-41d3-ae2f-dbf017af9c7a": {
-            "id": "419a8d31-9367-41d3-ae2f-dbf017af9c7a",
-            "servidor": "Servidor 105",
+        "5160c971-4dea-44e4-9654-2acb0bd30876": {
+            "id": "5160c971-4dea-44e4-9654-2acb0bd30876",
+            "servidor": "Servidor 6",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-WGrc9wHzpi",
@@ -102,9 +102,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "568e07b2-92cd-49be-acec-4a31a97f5707": {
-            "id": "568e07b2-92cd-49be-acec-4a31a97f5707",
-            "servidor": "Servidor 106",
+        "8fbc3ce0-16cf-483a-b6c7-f29ba122de3f": {
+            "id": "8fbc3ce0-16cf-483a-b6c7-f29ba122de3f",
+            "servidor": "Servidor 7",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-JAUclAbNca",
@@ -119,9 +119,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "d5f17bc4-6db5-4e87-8920-ba55ce6bf493": {
-            "id": "d5f17bc4-6db5-4e87-8920-ba55ce6bf493",
-            "servidor": "Servidor 107",
+        "7d5efabd-2adb-40c4-a62b-ff3b64aabf83": {
+            "id": "7d5efabd-2adb-40c4-a62b-ff3b64aabf83",
+            "servidor": "Servidor 8",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-hb2g6KDC1Q",
@@ -136,9 +136,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "08b4e860-360f-4119-9cfe-961ef28cc997": {
-            "id": "08b4e860-360f-4119-9cfe-961ef28cc997",
-            "servidor": "Servidor 108",
+        "6597398f-6b9a-495c-9166-3cf2126313c4": {
+            "id": "6597398f-6b9a-495c-9166-3cf2126313c4",
+            "servidor": "Servidor 9",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-84Hie3MnyE",
@@ -153,9 +153,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "b642820e-4fbf-4260-b008-003bb7a49844": {
-            "id": "b642820e-4fbf-4260-b008-003bb7a49844",
-            "servidor": "Servidor 109",
+        "72944d80-76d5-408c-a3ba-2505a48add87": {
+            "id": "72944d80-76d5-408c-a3ba-2505a48add87",
+            "servidor": "Servidor 10",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-YPrCfQ7gyg",
@@ -170,9 +170,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "808b00be-d044-405d-8d17-4a07a5f43823": {
-            "id": "808b00be-d044-405d-8d17-4a07a5f43823",
-            "servidor": "Servidor 110",
+        "69813f15-0db4-49b7-8d70-ea32b065c6b7": {
+            "id": "69813f15-0db4-49b7-8d70-ea32b065c6b7",
+            "servidor": "Servidor 11",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Yecc6LICKX",
@@ -187,9 +187,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "883a9b97-340a-4f22-9a7d-9614eb92614c": {
-            "id": "883a9b97-340a-4f22-9a7d-9614eb92614c",
-            "servidor": "Servidor 111",
+        "f4828052-5bcf-4ec5-9f73-46f8d55b6d60": {
+            "id": "f4828052-5bcf-4ec5-9f73-46f8d55b6d60",
+            "servidor": "Servidor 12",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-JbwJ5O9syV",
@@ -204,9 +204,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "e36f504b-6f32-4afb-a86a-a89fef93e292": {
-            "id": "e36f504b-6f32-4afb-a86a-a89fef93e292",
-            "servidor": "Servidor 112",
+        "e756a7d0-5497-4d00-89c4-faa38ae3c893": {
+            "id": "e756a7d0-5497-4d00-89c4-faa38ae3c893",
+            "servidor": "Servidor 13",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-RQfaiku1i7",
@@ -221,9 +221,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "42719686-737e-4122-b7ee-80aa1074ed4b": {
-            "id": "42719686-737e-4122-b7ee-80aa1074ed4b",
-            "servidor": "Servidor 113",
+        "c59a631f-834a-4c42-8778-d8d7dc9da83a": {
+            "id": "c59a631f-834a-4c42-8778-d8d7dc9da83a",
+            "servidor": "Servidor 14",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-OQwT4Gt6Aj",
@@ -238,9 +238,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "69e6ad67-3b01-4a33-ba36-90c900f53114": {
-            "id": "69e6ad67-3b01-4a33-ba36-90c900f53114",
-            "servidor": "Servidor 114",
+        "eb1547b2-15ba-407d-b76c-a31670cd5297": {
+            "id": "eb1547b2-15ba-407d-b76c-a31670cd5297",
+            "servidor": "Servidor 15",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-BXhylek1Tq",
@@ -255,9 +255,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "5975fcb3-782f-4d99-b897-ab197e647f63": {
-            "id": "5975fcb3-782f-4d99-b897-ab197e647f63",
-            "servidor": "Servidor 115",
+        "2fa1907e-d7eb-464d-a3e2-3c58f5b7ba25": {
+            "id": "2fa1907e-d7eb-464d-a3e2-3c58f5b7ba25",
+            "servidor": "Servidor 16",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-aTSnXfX3N8",
@@ -272,9 +272,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "55edb87f-35cd-42b7-a434-7f4c1cd5e124": {
-            "id": "55edb87f-35cd-42b7-a434-7f4c1cd5e124",
-            "servidor": "Servidor 116",
+        "1c1b0619-b500-4e47-8f43-1bc7b75733fd": {
+            "id": "1c1b0619-b500-4e47-8f43-1bc7b75733fd",
+            "servidor": "Servidor 17",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-II08PotbZu",
@@ -289,9 +289,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "bb78b589-46e1-40b7-8e84-98eb3952b12d": {
-            "id": "bb78b589-46e1-40b7-8e84-98eb3952b12d",
-            "servidor": "Servidor 117",
+        "64c47d82-9b56-4ef1-b080-01ba8245acc6": {
+            "id": "64c47d82-9b56-4ef1-b080-01ba8245acc6",
+            "servidor": "Servidor 18",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-aRzD94IxCY",
@@ -306,9 +306,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "addf03ab-ba16-4dd0-a705-0da4abc70261": {
-            "id": "addf03ab-ba16-4dd0-a705-0da4abc70261",
-            "servidor": "Servidor 118",
+        "59328c6e-2d52-4f76-a262-2c4d4350de78": {
+            "id": "59328c6e-2d52-4f76-a262-2c4d4350de78",
+            "servidor": "Servidor 19",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-ANurcj22j9",
@@ -323,9 +323,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "a33204fc-bf14-4797-b3c8-a7775b0e1f41": {
-            "id": "a33204fc-bf14-4797-b3c8-a7775b0e1f41",
-            "servidor": "Servidor 119",
+        "cfe5535f-485c-4735-813c-40ca91d9727c": {
+            "id": "cfe5535f-485c-4735-813c-40ca91d9727c",
+            "servidor": "Servidor 20",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-YRLO1ex8BT",
@@ -340,9 +340,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "d3a0c121-e5c7-49d8-a531-b9ca919b69ab": {
-            "id": "d3a0c121-e5c7-49d8-a531-b9ca919b69ab",
-            "servidor": "Servidor 120",
+        "57afcfd5-de11-4db8-8818-acd340af9adf": {
+            "id": "57afcfd5-de11-4db8-8818-acd340af9adf",
+            "servidor": "Servidor 21",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Z4LXjIyno6",
@@ -357,9 +357,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "c44a685d-4298-4c5f-ac52-64ee3b9202e4": {
-            "id": "c44a685d-4298-4c5f-ac52-64ee3b9202e4",
-            "servidor": "Servidor 121",
+        "ffcce66a-1580-4160-803b-b7acb229708f": {
+            "id": "ffcce66a-1580-4160-803b-b7acb229708f",
+            "servidor": "Servidor 22",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-aOd5CbEvgU",
@@ -374,9 +374,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "d2f91992-96ae-40eb-a589-d245e88c1b0b": {
-            "id": "d2f91992-96ae-40eb-a589-d245e88c1b0b",
-            "servidor": "Servidor 122",
+        "5538eb6a-4179-42e6-ad92-64fde9b6dbdb": {
+            "id": "5538eb6a-4179-42e6-ad92-64fde9b6dbdb",
+            "servidor": "Servidor 23",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Uw9ZNxfkUD",
@@ -391,9 +391,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "bd037e1b-0e9b-4f84-8c21-a9879f0f1ef8": {
-            "id": "bd037e1b-0e9b-4f84-8c21-a9879f0f1ef8",
-            "servidor": "Servidor 123",
+        "bbfde312-d6d7-49e8-8cb3-16d1ad27e5c0": {
+            "id": "bbfde312-d6d7-49e8-8cb3-16d1ad27e5c0",
+            "servidor": "Servidor 24",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-nbbaT7ArUE",
@@ -408,9 +408,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "fb6ae830-9e87-456f-bfbf-25f625bbd43f": {
-            "id": "fb6ae830-9e87-456f-bfbf-25f625bbd43f",
-            "servidor": "Servidor 124",
+        "97588980-c685-4849-94cc-eb4403f846f5": {
+            "id": "97588980-c685-4849-94cc-eb4403f846f5",
+            "servidor": "Servidor 25",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-pqVvOmEbi0",
@@ -425,9 +425,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "50bf1e13-ff9c-4de7-adb7-db071aa62459": {
-            "id": "50bf1e13-ff9c-4de7-adb7-db071aa62459",
-            "servidor": "Servidor 125",
+        "bc6a60e2-bb9c-4c63-a694-a67e402c1c70": {
+            "id": "bc6a60e2-bb9c-4c63-a694-a67e402c1c70",
+            "servidor": "Servidor 26",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-nkGQx1wpXK",
@@ -442,9 +442,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "1b9d50cb-b7fd-4cfb-842e-5d766d5613a9": {
-            "id": "1b9d50cb-b7fd-4cfb-842e-5d766d5613a9",
-            "servidor": "Servidor 126",
+        "bbff8651-02bb-4c37-bca6-cacc6545221d": {
+            "id": "bbff8651-02bb-4c37-bca6-cacc6545221d",
+            "servidor": "Servidor 27",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-9sIaQvZ04V",
@@ -459,9 +459,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "782d8868-ba34-4828-88cc-94af58186923": {
-            "id": "782d8868-ba34-4828-88cc-94af58186923",
-            "servidor": "Servidor 127",
+        "aefa680e-2d84-431e-bf24-aacb8e9ee65d": {
+            "id": "aefa680e-2d84-431e-bf24-aacb8e9ee65d",
+            "servidor": "Servidor 28",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-rpL9M5I6eK",
@@ -476,9 +476,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "53b58f74-ced2-4be6-888a-5a78471a77e6": {
-            "id": "53b58f74-ced2-4be6-888a-5a78471a77e6",
-            "servidor": "Servidor 128",
+        "936b2d43-0c6e-4b52-accb-753ae28659bf": {
+            "id": "936b2d43-0c6e-4b52-accb-753ae28659bf",
+            "servidor": "Servidor 29",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-V1dfaWcnXs",
@@ -493,9 +493,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "78b7fcb0-a7a1-4a09-9662-3643c7bd5eab": {
-            "id": "78b7fcb0-a7a1-4a09-9662-3643c7bd5eab",
-            "servidor": "Servidor 129",
+        "af47aa82-a5dd-4fe5-a410-265f3f18d7b0": {
+            "id": "af47aa82-a5dd-4fe5-a410-265f3f18d7b0",
+            "servidor": "Servidor 30",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-sjQ7ll7fjX",
@@ -510,9 +510,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "2c118827-c228-488a-9063-168bad11876f": {
-            "id": "2c118827-c228-488a-9063-168bad11876f",
-            "servidor": "Servidor 130",
+        "386f0852-d7e9-410e-8d94-397a74f0316e": {
+            "id": "386f0852-d7e9-410e-8d94-397a74f0316e",
+            "servidor": "Servidor 31",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-HGjfpRXwXc",
@@ -527,9 +527,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "ad124d2c-bfbf-44e5-b47f-d4b0f206c126": {
-            "id": "ad124d2c-bfbf-44e5-b47f-d4b0f206c126",
-            "servidor": "Servidor 131",
+        "e46be3ad-24b0-4751-9b75-2d8796c53afe": {
+            "id": "e46be3ad-24b0-4751-9b75-2d8796c53afe",
+            "servidor": "Servidor 32",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-HgqYf7EvIT",
@@ -544,9 +544,9 @@
             "quantidade_de_filmes": 0,
             "quantidade_de_series": 0
         },
-        "d770cc06-3c10-4316-b08f-865c799b12e3": {
-            "id": "d770cc06-3c10-4316-b08f-865c799b12e3",
-            "servidor": "Servidor 132",
+        "5499beef-e868-4de4-9b4e-6e00671c1e19": {
+            "id": "5499beef-e868-4de4-9b4e-6e00671c1e19",
+            "servidor": "Servidor 33",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-xFhOwRZiJH",
@@ -561,9 +561,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "65389f6d-0144-426c-9d59-8b87b2b428b1": {
-            "id": "65389f6d-0144-426c-9d59-8b87b2b428b1",
-            "servidor": "Servidor 133",
+        "01be9c4f-6904-44b7-bbd2-2932f5ef3746": {
+            "id": "01be9c4f-6904-44b7-bbd2-2932f5ef3746",
+            "servidor": "Servidor 34",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-qhFPOQa7kx",
@@ -578,9 +578,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "bb77809c-edf7-401d-8818-406b89f84bd2": {
-            "id": "bb77809c-edf7-401d-8818-406b89f84bd2",
-            "servidor": "Servidor 134",
+        "7ee85f2b-16dc-48fd-b6e3-cabda4d59e3b": {
+            "id": "7ee85f2b-16dc-48fd-b6e3-cabda4d59e3b",
+            "servidor": "Servidor 35",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-G3EQXEPWE6",
@@ -595,9 +595,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 0
         },
-        "6e5a42eb-50cf-433a-beb7-90019e191f9e": {
-            "id": "6e5a42eb-50cf-433a-beb7-90019e191f9e",
-            "servidor": "Servidor 135",
+        "322c0233-ef49-4d4a-98f2-669a7f0f2cff": {
+            "id": "322c0233-ef49-4d4a-98f2-669a7f0f2cff",
+            "servidor": "Servidor 36",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-NdRYrFpUCF",
@@ -612,9 +612,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "41d7e127-8373-43a6-9dec-0105e81d6e01": {
-            "id": "41d7e127-8373-43a6-9dec-0105e81d6e01",
-            "servidor": "Servidor 136",
+        "a7696f48-fcf6-410e-9d37-21886febf48b": {
+            "id": "a7696f48-fcf6-410e-9d37-21886febf48b",
+            "servidor": "Servidor 37",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-iWvLJI8nki",
@@ -629,9 +629,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "2610b437-08cf-4883-a5ee-9c66c476c815": {
-            "id": "2610b437-08cf-4883-a5ee-9c66c476c815",
-            "servidor": "Servidor 137",
+        "d46cc875-45eb-4b65-a2a6-a9c5dc802162": {
+            "id": "d46cc875-45eb-4b65-a2a6-a9c5dc802162",
+            "servidor": "Servidor 38",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-1Irrobdm3P",
@@ -646,9 +646,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 0
         },
-        "7b4d4497-c41c-4bc5-a299-cab81a4170f9": {
-            "id": "7b4d4497-c41c-4bc5-a299-cab81a4170f9",
-            "servidor": "Servidor 138",
+        "864f7daf-911a-4397-8070-f19540ff56db": {
+            "id": "864f7daf-911a-4397-8070-f19540ff56db",
+            "servidor": "Servidor 39",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-PjuKlbN0eo",
@@ -663,9 +663,9 @@
             "quantidade_de_filmes": 0,
             "quantidade_de_series": 0
         },
-        "71f17c23-b3f2-46fa-ac6f-dacb6a80762a": {
-            "id": "71f17c23-b3f2-46fa-ac6f-dacb6a80762a",
-            "servidor": "Servidor 139",
+        "e190131d-08d9-4971-9a3b-7fa27d8ef3d4": {
+            "id": "e190131d-08d9-4971-9a3b-7fa27d8ef3d4",
+            "servidor": "Servidor 40",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-hmDkXOG113",
@@ -680,9 +680,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "faed5e31-b5e7-4dfb-b257-5434dd77db7e": {
-            "id": "faed5e31-b5e7-4dfb-b257-5434dd77db7e",
-            "servidor": "Servidor 140",
+        "a7151b2d-dd8a-411e-940d-b03a274b0ab7": {
+            "id": "a7151b2d-dd8a-411e-940d-b03a274b0ab7",
+            "servidor": "Servidor 41",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Qk2qtecIVY",
@@ -697,9 +697,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "1aac25be-5f5c-40da-925e-b6e2e4baf954": {
-            "id": "1aac25be-5f5c-40da-925e-b6e2e4baf954",
-            "servidor": "Servidor 141",
+        "ebbc8440-a234-4ec9-bd8c-c4a3daed185a": {
+            "id": "ebbc8440-a234-4ec9-bd8c-c4a3daed185a",
+            "servidor": "Servidor 42",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-l1V0vhxkpf",
@@ -714,9 +714,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "8db7a6a4-70d9-422e-8289-3ae55ea4131b": {
-            "id": "8db7a6a4-70d9-422e-8289-3ae55ea4131b",
-            "servidor": "Servidor 142",
+        "3ca30276-e5a6-4ec1-8cbc-ae3668e0f414": {
+            "id": "3ca30276-e5a6-4ec1-8cbc-ae3668e0f414",
+            "servidor": "Servidor 43",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Cj0az14efA",
@@ -731,9 +731,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "e3a95a6c-d2e4-4627-bc24-71ab583eb951": {
-            "id": "e3a95a6c-d2e4-4627-bc24-71ab583eb951",
-            "servidor": "Servidor 143",
+        "983cf2be-9fb6-4bc2-b329-d3e5131e2720": {
+            "id": "983cf2be-9fb6-4bc2-b329-d3e5131e2720",
+            "servidor": "Servidor 44",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-oi6x3arAcf",
@@ -748,9 +748,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "f497ed62-1903-451f-9729-cbb93ab0b036": {
-            "id": "f497ed62-1903-451f-9729-cbb93ab0b036",
-            "servidor": "Servidor 144",
+        "08b61241-a87c-4f7b-9c3b-2803095813c0": {
+            "id": "08b61241-a87c-4f7b-9c3b-2803095813c0",
+            "servidor": "Servidor 45",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-VGEz3nRXnP",
@@ -765,9 +765,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "029b644d-6645-4ea5-891a-19093dedbf95": {
-            "id": "029b644d-6645-4ea5-891a-19093dedbf95",
-            "servidor": "Servidor 145",
+        "025ac765-c49d-4971-a816-372770bca60e": {
+            "id": "025ac765-c49d-4971-a816-372770bca60e",
+            "servidor": "Servidor 46",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-9BsXe0P7IS",
@@ -782,9 +782,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "d6f67300-2041-4c18-b1a9-2259cdceb476": {
-            "id": "d6f67300-2041-4c18-b1a9-2259cdceb476",
-            "servidor": "Servidor 146",
+        "b31eb146-eedc-45db-ad0f-7ae74fbb0789": {
+            "id": "b31eb146-eedc-45db-ad0f-7ae74fbb0789",
+            "servidor": "Servidor 47",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-RZlQiYglvf",
@@ -799,9 +799,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "b3ffc9bb-8aae-4e00-b12e-4c3a057f526d": {
-            "id": "b3ffc9bb-8aae-4e00-b12e-4c3a057f526d",
-            "servidor": "Servidor 147",
+        "1acad138-32f8-4f9d-ad45-e28e864f1a02": {
+            "id": "1acad138-32f8-4f9d-ad45-e28e864f1a02",
+            "servidor": "Servidor 48",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "Cinema-V3-9fztXO7fCE",
@@ -816,9 +816,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "636025e9-fdb1-4b30-9fcb-355c862cef72": {
-            "id": "636025e9-fdb1-4b30-9fcb-355c862cef72",
-            "servidor": "Servidor 148",
+        "f22af1be-7084-4839-8a71-3d60877f0261": {
+            "id": "f22af1be-7084-4839-8a71-3d60877f0261",
+            "servidor": "Servidor 49",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-lQHBjFypLy",
@@ -833,9 +833,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "1bd6fc4d-1025-4ad1-abf6-a069431ccb63": {
-            "id": "1bd6fc4d-1025-4ad1-abf6-a069431ccb63",
-            "servidor": "Servidor 149",
+        "bd8c2357-611b-4092-a1c3-ab8d5d8883fc": {
+            "id": "bd8c2357-611b-4092-a1c3-ab8d5d8883fc",
+            "servidor": "Servidor 50",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-gh7I9qZAcS",
@@ -850,9 +850,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "4ea2759d-2e8e-4735-96bf-b7291339b809": {
-            "id": "4ea2759d-2e8e-4735-96bf-b7291339b809",
-            "servidor": "Servidor 150",
+        "5fee132a-122e-4540-97e5-851d3d8d4fe4": {
+            "id": "5fee132a-122e-4540-97e5-851d3d8d4fe4",
+            "servidor": "Servidor 51",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-MYrwo9rGMv",
@@ -867,9 +867,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "37ca4507-fa90-4359-a0c9-78c4a5d951c3": {
-            "id": "37ca4507-fa90-4359-a0c9-78c4a5d951c3",
-            "servidor": "Servidor 151",
+        "245c8a46-ab17-4ce8-90bc-104a4c499cba": {
+            "id": "245c8a46-ab17-4ce8-90bc-104a4c499cba",
+            "servidor": "Servidor 52",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-yNBFktEt3X",
@@ -884,9 +884,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "99f08b63-1e04-41ce-b25b-a1a1bbf5ed6b": {
-            "id": "99f08b63-1e04-41ce-b25b-a1a1bbf5ed6b",
-            "servidor": "Servidor 152",
+        "d5992ef6-2fe3-40d8-8dca-3b2765d18847": {
+            "id": "d5992ef6-2fe3-40d8-8dca-3b2765d18847",
+            "servidor": "Servidor 53",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-m5vHZGLifV",
@@ -901,9 +901,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "0895e9e0-da91-42cc-b308-a52915004180": {
-            "id": "0895e9e0-da91-42cc-b308-a52915004180",
-            "servidor": "Servidor 153",
+        "a58c55d6-690c-47be-9a9d-83a71191e1bf": {
+            "id": "a58c55d6-690c-47be-9a9d-83a71191e1bf",
+            "servidor": "Servidor 54",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-ph5trF8mJj",
@@ -918,9 +918,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "39e8fded-1441-46c7-86a2-31d6dbc0b689": {
-            "id": "39e8fded-1441-46c7-86a2-31d6dbc0b689",
-            "servidor": "Servidor 154",
+        "481e98eb-a8f8-4be2-81ec-abde18b17981": {
+            "id": "481e98eb-a8f8-4be2-81ec-abde18b17981",
+            "servidor": "Servidor 55",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-RoAPNQyrdj",
@@ -935,9 +935,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "7d36bd35-9dc1-44de-9ea2-7428d8b60eb5": {
-            "id": "7d36bd35-9dc1-44de-9ea2-7428d8b60eb5",
-            "servidor": "Servidor 155",
+        "040c18a0-f3db-4e30-8176-5a0846ec3124": {
+            "id": "040c18a0-f3db-4e30-8176-5a0846ec3124",
+            "servidor": "Servidor 56",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-EJFNlhHJYu",
@@ -952,9 +952,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "22f2447a-a25b-4fc4-aaad-ac1736df2a5d": {
-            "id": "22f2447a-a25b-4fc4-aaad-ac1736df2a5d",
-            "servidor": "Servidor 156",
+        "3d42641d-6fe7-44cc-95d6-595734dc68ea": {
+            "id": "3d42641d-6fe7-44cc-95d6-595734dc68ea",
+            "servidor": "Servidor 57",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-LDywhDFlip",
@@ -969,9 +969,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "3bd794df-c07a-4c02-b805-cf7079640608": {
-            "id": "3bd794df-c07a-4c02-b805-cf7079640608",
-            "servidor": "Servidor 157",
+        "114d5ebe-0abf-40d1-b0b3-e2347459635a": {
+            "id": "114d5ebe-0abf-40d1-b0b3-e2347459635a",
+            "servidor": "Servidor 58",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-6BCkqqsOTu",
@@ -986,9 +986,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "386d1524-ffc5-4028-a5ab-ed71a28a141a": {
-            "id": "386d1524-ffc5-4028-a5ab-ed71a28a141a",
-            "servidor": "Servidor 158",
+        "d8e9d16b-a405-4887-96fe-657705d6fbdc": {
+            "id": "d8e9d16b-a405-4887-96fe-657705d6fbdc",
+            "servidor": "Servidor 59",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-sO8r46oOv0",
@@ -1003,9 +1003,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "66d71aff-b15c-4393-9d25-081e494a49e6": {
-            "id": "66d71aff-b15c-4393-9d25-081e494a49e6",
-            "servidor": "Servidor 159",
+        "1b3268bc-a1fa-46f5-805b-29d5cba6148c": {
+            "id": "1b3268bc-a1fa-46f5-805b-29d5cba6148c",
+            "servidor": "Servidor 60",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-gTAzaubdjG",
@@ -1020,9 +1020,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "5a7ef9ec-0153-4673-8e7d-c87dd1b5a487": {
-            "id": "5a7ef9ec-0153-4673-8e7d-c87dd1b5a487",
-            "servidor": "Servidor 160",
+        "c6849a69-534f-4db6-abfb-658294d10677": {
+            "id": "c6849a69-534f-4db6-abfb-658294d10677",
+            "servidor": "Servidor 61",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-1rNFUCRAsf",
@@ -1037,9 +1037,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "10d5422b-1cc9-4df5-bf80-a3784122fd1f": {
-            "id": "10d5422b-1cc9-4df5-bf80-a3784122fd1f",
-            "servidor": "Servidor 161",
+        "4bc646f2-e6bc-4305-85c9-9008a882d212": {
+            "id": "4bc646f2-e6bc-4305-85c9-9008a882d212",
+            "servidor": "Servidor 62",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-X6AvW3kGgy",
@@ -1054,9 +1054,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "c5246191-8845-4c49-a0c9-de9e1cc554eb": {
-            "id": "c5246191-8845-4c49-a0c9-de9e1cc554eb",
-            "servidor": "Servidor 162",
+        "905b541f-1272-495c-9038-0268c5303170": {
+            "id": "905b541f-1272-495c-9038-0268c5303170",
+            "servidor": "Servidor 63",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-1sDyuyWISi",
@@ -1071,9 +1071,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "acf22a51-2e9c-460e-9141-fc4867847e99": {
-            "id": "acf22a51-2e9c-460e-9141-fc4867847e99",
-            "servidor": "Servidor 163",
+        "e5ba11a4-84c4-4451-af05-801e8a0b96d7": {
+            "id": "e5ba11a4-84c4-4451-af05-801e8a0b96d7",
+            "servidor": "Servidor 64",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Wzjd18oQHy",
@@ -1088,9 +1088,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "da245c28-a7c2-4923-88fe-345f7ae98e05": {
-            "id": "da245c28-a7c2-4923-88fe-345f7ae98e05",
-            "servidor": "Servidor 164",
+        "033bdbfb-66b0-4781-9b62-b106adfa9e45": {
+            "id": "033bdbfb-66b0-4781-9b62-b106adfa9e45",
+            "servidor": "Servidor 65",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-5VP0NY0Lmv",
@@ -1105,9 +1105,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "3ef09b5f-ff7f-4f48-ab7b-36576d97a529": {
-            "id": "3ef09b5f-ff7f-4f48-ab7b-36576d97a529",
-            "servidor": "Servidor 165",
+        "db78d96a-d839-4ac7-9d90-e4f940690133": {
+            "id": "db78d96a-d839-4ac7-9d90-e4f940690133",
+            "servidor": "Servidor 66",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-It3vKksiRk",
@@ -1122,9 +1122,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "80b98501-a489-4b4e-9746-7e9c932fdb0c": {
-            "id": "80b98501-a489-4b4e-9746-7e9c932fdb0c",
-            "servidor": "Servidor 166",
+        "3a7e74f8-7cc2-46ee-b28c-2c4929e8d83e": {
+            "id": "3a7e74f8-7cc2-46ee-b28c-2c4929e8d83e",
+            "servidor": "Servidor 67",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Cu4Gzn8QJM",
@@ -1139,9 +1139,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "3933541e-2e67-461a-97c7-3c01f942fff7": {
-            "id": "3933541e-2e67-461a-97c7-3c01f942fff7",
-            "servidor": "Servidor 167",
+        "02860a96-7fcb-4c98-a7bc-6ea7172d96e6": {
+            "id": "02860a96-7fcb-4c98-a7bc-6ea7172d96e6",
+            "servidor": "Servidor 68",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-rjsqUiqYZp",
@@ -1156,9 +1156,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "a312e51b-5e98-46ad-afca-28d3fffe64bc": {
-            "id": "a312e51b-5e98-46ad-afca-28d3fffe64bc",
-            "servidor": "Servidor 168",
+        "21ac73e8-0dd7-4c00-b7d4-347f49ad051e": {
+            "id": "21ac73e8-0dd7-4c00-b7d4-347f49ad051e",
+            "servidor": "Servidor 69",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-pbkjGJmNWA",
@@ -1173,9 +1173,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "d8b2a8fb-0fe9-4347-a6d1-35161f5f47d8": {
-            "id": "d8b2a8fb-0fe9-4347-a6d1-35161f5f47d8",
-            "servidor": "Servidor 169",
+        "644e258a-78fa-416e-aeb1-c912ded0d815": {
+            "id": "644e258a-78fa-416e-aeb1-c912ded0d815",
+            "servidor": "Servidor 70",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-OUC8nvapLV",
@@ -1190,9 +1190,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "99c14048-187d-466a-82d0-9721bd288d52": {
-            "id": "99c14048-187d-466a-82d0-9721bd288d52",
-            "servidor": "Servidor 170",
+        "6cde434b-20c1-4e98-b790-5d7699eb5885": {
+            "id": "6cde434b-20c1-4e98-b790-5d7699eb5885",
+            "servidor": "Servidor 71",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-DLgq59XhcA",
@@ -1207,9 +1207,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "88c22eb7-7ec7-4812-88a5-5846ff457198": {
-            "id": "88c22eb7-7ec7-4812-88a5-5846ff457198",
-            "servidor": "Servidor 171",
+        "97fab845-e926-4da1-baab-f415f7296e99": {
+            "id": "97fab845-e926-4da1-baab-f415f7296e99",
+            "servidor": "Servidor 72",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-S0hqyMkeOA",
@@ -1224,9 +1224,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "c591e248-3123-488f-93ca-0feb62a354b4": {
-            "id": "c591e248-3123-488f-93ca-0feb62a354b4",
-            "servidor": "Servidor 172",
+        "52baca8f-259d-48d8-a678-1ac0643712a3": {
+            "id": "52baca8f-259d-48d8-a678-1ac0643712a3",
+            "servidor": "Servidor 73",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-utMC1OPyIW",
@@ -1241,9 +1241,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "1817b32c-fd46-40b8-ae55-a969d006dee7": {
-            "id": "1817b32c-fd46-40b8-ae55-a969d006dee7",
-            "servidor": "Servidor 173",
+        "20cb27dd-305c-496f-9270-df24c4b615f6": {
+            "id": "20cb27dd-305c-496f-9270-df24c4b615f6",
+            "servidor": "Servidor 74",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-z8PDoFPsUe",
@@ -1258,9 +1258,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "fcdf0c25-bfc7-4317-94f1-107dc5e3310d": {
-            "id": "fcdf0c25-bfc7-4317-94f1-107dc5e3310d",
-            "servidor": "Servidor 174",
+        "c74400b7-c393-4de6-a0f2-af9247c3996f": {
+            "id": "c74400b7-c393-4de6-a0f2-af9247c3996f",
+            "servidor": "Servidor 75",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-M2AiXQ3wjh",
@@ -1275,9 +1275,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "13fe8aad-6bb1-4f90-8f60-f4512aec5793": {
-            "id": "13fe8aad-6bb1-4f90-8f60-f4512aec5793",
-            "servidor": "Servidor 175",
+        "4194e8a9-e7d2-4cb9-bbdf-f85171fd39b4": {
+            "id": "4194e8a9-e7d2-4cb9-bbdf-f85171fd39b4",
+            "servidor": "Servidor 76",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-dpj3eSb4wM",
@@ -1292,9 +1292,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "6d784ea5-9c60-40ad-9555-962a54135682": {
-            "id": "6d784ea5-9c60-40ad-9555-962a54135682",
-            "servidor": "Servidor 176",
+        "421ad790-ae6e-4426-9b21-9b9da5d37551": {
+            "id": "421ad790-ae6e-4426-9b21-9b9da5d37551",
+            "servidor": "Servidor 77",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-qeCHPgWeGB",
@@ -1309,9 +1309,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "4ac3df48-6eb8-4d78-b1b1-6e085c0727d4": {
-            "id": "4ac3df48-6eb8-4d78-b1b1-6e085c0727d4",
-            "servidor": "Servidor 177",
+        "ca072a09-3dee-4519-9208-8888a50d4ac3": {
+            "id": "ca072a09-3dee-4519-9208-8888a50d4ac3",
+            "servidor": "Servidor 78",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Am0yvkvCKT",
@@ -1326,9 +1326,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "b5ea7c5c-fde8-406b-9cff-eeb2d0ff5247": {
-            "id": "b5ea7c5c-fde8-406b-9cff-eeb2d0ff5247",
-            "servidor": "Servidor 178",
+        "6f236ca1-e63c-41b3-8387-b00200493153": {
+            "id": "6f236ca1-e63c-41b3-8387-b00200493153",
+            "servidor": "Servidor 79",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-7ubxgWrAlv",
@@ -1343,9 +1343,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "881469d7-8d41-4b73-90fa-bd4d29285e8c": {
-            "id": "881469d7-8d41-4b73-90fa-bd4d29285e8c",
-            "servidor": "Servidor 179",
+        "3bf5bd8c-c175-4d5a-9cf7-bbc327fd0f9e": {
+            "id": "3bf5bd8c-c175-4d5a-9cf7-bbc327fd0f9e",
+            "servidor": "Servidor 80",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-cEBTK719xx",
@@ -1360,9 +1360,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "06ef4455-b52d-4cfb-952f-580be43ac4fe": {
-            "id": "06ef4455-b52d-4cfb-952f-580be43ac4fe",
-            "servidor": "Servidor 180",
+        "a6864f73-0811-4286-b3c9-7de1d8873e28": {
+            "id": "a6864f73-0811-4286-b3c9-7de1d8873e28",
+            "servidor": "Servidor 81",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-meemsoPWhO",
@@ -1377,9 +1377,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "3cfeb744-82f3-4347-b0bd-ed098b7cb1e0": {
-            "id": "3cfeb744-82f3-4347-b0bd-ed098b7cb1e0",
-            "servidor": "Servidor 181",
+        "0b7a0401-0bc0-48b2-a300-165535c37753": {
+            "id": "0b7a0401-0bc0-48b2-a300-165535c37753",
+            "servidor": "Servidor 82",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-aHoEVvCbVy",
@@ -1394,9 +1394,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "ed0c39f5-71e0-4751-8cc3-93a9aaa606af": {
-            "id": "ed0c39f5-71e0-4751-8cc3-93a9aaa606af",
-            "servidor": "Servidor 182",
+        "679823dc-afda-4dee-bafc-e5bfbfac543e": {
+            "id": "679823dc-afda-4dee-bafc-e5bfbfac543e",
+            "servidor": "Servidor 83",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-41KVJiUQwr",
@@ -1411,9 +1411,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "e276c947-2859-4dd7-a70c-4998f03a91d3": {
-            "id": "e276c947-2859-4dd7-a70c-4998f03a91d3",
-            "servidor": "Servidor 183",
+        "313e3fe3-c78f-4eb8-9624-ced9d52a2e0d": {
+            "id": "313e3fe3-c78f-4eb8-9624-ced9d52a2e0d",
+            "servidor": "Servidor 84",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-puYqMqiOLL",
@@ -1428,9 +1428,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "893e1c7a-519a-447a-8b82-06959f2a1359": {
-            "id": "893e1c7a-519a-447a-8b82-06959f2a1359",
-            "servidor": "Servidor 184",
+        "a527ddc4-49bd-4908-9ece-ae35ec42eec3": {
+            "id": "a527ddc4-49bd-4908-9ece-ae35ec42eec3",
+            "servidor": "Servidor 85",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-HJIF6manSr",
@@ -1445,9 +1445,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "edb54e93-1c22-48ed-a6d5-8d4241069d06": {
-            "id": "edb54e93-1c22-48ed-a6d5-8d4241069d06",
-            "servidor": "Servidor 185",
+        "ea8b54ae-4b60-421e-b848-2364664557ee": {
+            "id": "ea8b54ae-4b60-421e-b848-2364664557ee",
+            "servidor": "Servidor 86",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-rgvoCLm2dc",
@@ -1462,9 +1462,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "9c6d3307-c2e0-49f1-9dea-a5e3a0a2d970": {
-            "id": "9c6d3307-c2e0-49f1-9dea-a5e3a0a2d970",
-            "servidor": "Servidor 186",
+        "e99b163e-6d22-4b01-bc51-e5ec7c574978": {
+            "id": "e99b163e-6d22-4b01-bc51-e5ec7c574978",
+            "servidor": "Servidor 87",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-B1fvb5o3Hj",
@@ -1479,9 +1479,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "48920d1c-24e6-4bd2-a3a7-ebfb5e9e8893": {
-            "id": "48920d1c-24e6-4bd2-a3a7-ebfb5e9e8893",
-            "servidor": "Servidor 187",
+        "c10271f5-1080-414f-9749-12f5dec1d7e3": {
+            "id": "c10271f5-1080-414f-9749-12f5dec1d7e3",
+            "servidor": "Servidor 88",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-T3C6H9742T",
@@ -1496,9 +1496,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "8c53a586-bfe7-43c8-987f-2edf04a46fef": {
-            "id": "8c53a586-bfe7-43c8-987f-2edf04a46fef",
-            "servidor": "Servidor 188",
+        "515dedd2-05e9-480c-8223-7cd36fa3bd01": {
+            "id": "515dedd2-05e9-480c-8223-7cd36fa3bd01",
+            "servidor": "Servidor 89",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-DygJNUwaWW",
@@ -1513,9 +1513,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "a627ed91-6193-4280-b7a1-99ade9cee43c": {
-            "id": "a627ed91-6193-4280-b7a1-99ade9cee43c",
-            "servidor": "Servidor 189",
+        "e86b4a75-632e-4e60-97bd-c30b6fcb5894": {
+            "id": "e86b4a75-632e-4e60-97bd-c30b6fcb5894",
+            "servidor": "Servidor 90",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-KKFo89xwCg",
@@ -1530,9 +1530,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "7c7755a5-9dd1-4af4-b5ed-3f466a5083c2": {
-            "id": "7c7755a5-9dd1-4af4-b5ed-3f466a5083c2",
-            "servidor": "Servidor 190",
+        "85bfcae4-1594-4d34-8453-7ce79e44907c": {
+            "id": "85bfcae4-1594-4d34-8453-7ce79e44907c",
+            "servidor": "Servidor 91",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-yBGMlVEaqC",
@@ -1547,9 +1547,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "747181fd-c046-4ba4-adac-5b4b3969b87c": {
-            "id": "747181fd-c046-4ba4-adac-5b4b3969b87c",
-            "servidor": "Servidor 191",
+        "433c7fcf-57ac-4630-b243-1ac060120070": {
+            "id": "433c7fcf-57ac-4630-b243-1ac060120070",
+            "servidor": "Servidor 92",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-6DP2AXcjmN",
@@ -1564,9 +1564,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "36e49e78-a409-47f5-b0b2-742872a6cb13": {
-            "id": "36e49e78-a409-47f5-b0b2-742872a6cb13",
-            "servidor": "Servidor 192",
+        "eb0607b7-f722-445d-9573-4da941b6a51f": {
+            "id": "eb0607b7-f722-445d-9573-4da941b6a51f",
+            "servidor": "Servidor 93",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-pfLWCBSIph",
@@ -1581,9 +1581,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "74f9b19b-0349-479e-9a11-fdb9320d2442": {
-            "id": "74f9b19b-0349-479e-9a11-fdb9320d2442",
-            "servidor": "Servidor 193",
+        "c8ff3647-024b-46da-b7e8-92ddc1ef7b34": {
+            "id": "c8ff3647-024b-46da-b7e8-92ddc1ef7b34",
+            "servidor": "Servidor 94",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-vkcHBuuco9",
@@ -1598,9 +1598,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "5be874e4-6ff3-46fe-af69-a47708812439": {
-            "id": "5be874e4-6ff3-46fe-af69-a47708812439",
-            "servidor": "Servidor 194",
+        "81ea7fae-216a-4241-b0b1-be94e7b276bf": {
+            "id": "81ea7fae-216a-4241-b0b1-be94e7b276bf",
+            "servidor": "Servidor 95",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-dWX1QL8A0U",
@@ -1615,9 +1615,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "4c0bbb92-44a4-4d7d-bbb8-89a6f0cf52de": {
-            "id": "4c0bbb92-44a4-4d7d-bbb8-89a6f0cf52de",
-            "servidor": "Servidor 195",
+        "2c11fe0f-89d6-4b04-9b83-1a13153c1368": {
+            "id": "2c11fe0f-89d6-4b04-9b83-1a13153c1368",
+            "servidor": "Servidor 96",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-p0O81PzePx",
@@ -1632,9 +1632,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "4de52918-2a03-40d0-b5ff-704761b574d2": {
-            "id": "4de52918-2a03-40d0-b5ff-704761b574d2",
-            "servidor": "Servidor 196",
+        "bc462874-cedf-40cc-9f63-59cd30ed7eb5": {
+            "id": "bc462874-cedf-40cc-9f63-59cd30ed7eb5",
+            "servidor": "Servidor 97",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-OSXA6vLQ9v",
@@ -1649,9 +1649,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "e52c5b73-f6ad-4853-8059-8db20e82b22f": {
-            "id": "e52c5b73-f6ad-4853-8059-8db20e82b22f",
-            "servidor": "Servidor 197",
+        "df9b984f-956e-43ec-8479-00492cd59e37": {
+            "id": "df9b984f-956e-43ec-8479-00492cd59e37",
+            "servidor": "Servidor 98",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-ST68tSsjuZ",
@@ -1666,9 +1666,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "195f0f23-c277-426d-a033-a631a773df47": {
-            "id": "195f0f23-c277-426d-a033-a631a773df47",
-            "servidor": "Servidor 198",
+        "dc977b06-9441-4f14-bfad-21ca742844b7": {
+            "id": "dc977b06-9441-4f14-bfad-21ca742844b7",
+            "servidor": "Servidor 99",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-mikdnxpHqx",
@@ -1683,9 +1683,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "b8f5e0b6-3fe7-4337-8e5d-df0c374ce323": {
-            "id": "b8f5e0b6-3fe7-4337-8e5d-df0c374ce323",
-            "servidor": "Servidor 199",
+        "55ad2e09-5396-48e5-81e5-f1ade6d7885a": {
+            "id": "55ad2e09-5396-48e5-81e5-f1ade6d7885a",
+            "servidor": "Servidor 100",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-WgqKhPuses",
@@ -1700,9 +1700,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "07588f5a-6161-40df-a5a3-e346a393b67c": {
-            "id": "07588f5a-6161-40df-a5a3-e346a393b67c",
-            "servidor": "Servidor 200",
+        "b03c4a88-7087-4753-970d-8217bbe8ff68": {
+            "id": "b03c4a88-7087-4753-970d-8217bbe8ff68",
+            "servidor": "Servidor 101",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Zigx7G1WqN",
@@ -1717,9 +1717,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "ee48ef23-e2e7-4e10-b25d-c725f55ef8ad": {
-            "id": "ee48ef23-e2e7-4e10-b25d-c725f55ef8ad",
-            "servidor": "Servidor 201",
+        "5e83494f-f00d-462a-9158-3c509196f75e": {
+            "id": "5e83494f-f00d-462a-9158-3c509196f75e",
+            "servidor": "Servidor 102",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-3jCBDrHD4J",
@@ -1734,9 +1734,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "115bd653-fffc-451f-af86-488d5a546020": {
-            "id": "115bd653-fffc-451f-af86-488d5a546020",
-            "servidor": "Servidor 202",
+        "ab0b6bbc-7395-4d01-be0b-5df5e5b95b1f": {
+            "id": "ab0b6bbc-7395-4d01-be0b-5df5e5b95b1f",
+            "servidor": "Servidor 103",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-deN5yqRtk4",
@@ -1751,9 +1751,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "f2fb579b-94ee-4e5d-8373-36322b5d905c": {
-            "id": "f2fb579b-94ee-4e5d-8373-36322b5d905c",
-            "servidor": "Servidor 203",
+        "c86897ba-c973-4bef-8890-78d9a35b4d90": {
+            "id": "c86897ba-c973-4bef-8890-78d9a35b4d90",
+            "servidor": "Servidor 104",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-XRYKWiMDC2",
@@ -1768,9 +1768,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "3014ab90-56f5-41ca-8df2-31f249059411": {
-            "id": "3014ab90-56f5-41ca-8df2-31f249059411",
-            "servidor": "Servidor 204",
+        "5aef0532-7137-455b-9c6b-638f6bfa6422": {
+            "id": "5aef0532-7137-455b-9c6b-638f6bfa6422",
+            "servidor": "Servidor 105",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-GppyVcizV6",
@@ -1785,9 +1785,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "4892a2c8-324b-4c88-8da4-66de34a50fdf": {
-            "id": "4892a2c8-324b-4c88-8da4-66de34a50fdf",
-            "servidor": "Servidor 205",
+        "9d0557d4-31e3-4050-b032-550918ccdd0f": {
+            "id": "9d0557d4-31e3-4050-b032-550918ccdd0f",
+            "servidor": "Servidor 106",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-vq9ETekWj0",
@@ -1802,9 +1802,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "4600d97e-942e-4969-b328-fe10613945ce": {
-            "id": "4600d97e-942e-4969-b328-fe10613945ce",
-            "servidor": "Servidor 206",
+        "3fb92a1a-e992-41ff-a20f-65be5711f250": {
+            "id": "3fb92a1a-e992-41ff-a20f-65be5711f250",
+            "servidor": "Servidor 107",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-PXXcCyt0Jl",
@@ -1819,9 +1819,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "1198009d-15e8-4ac3-a105-6bb8ddc0c70d": {
-            "id": "1198009d-15e8-4ac3-a105-6bb8ddc0c70d",
-            "servidor": "Servidor 207",
+        "ac7048bc-4842-4551-9a16-82e9efd20f43": {
+            "id": "ac7048bc-4842-4551-9a16-82e9efd20f43",
+            "servidor": "Servidor 108",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-srtGKp6oBz",
@@ -1836,9 +1836,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "86e05816-5652-4c33-ae6f-4917a150c2a7": {
-            "id": "86e05816-5652-4c33-ae6f-4917a150c2a7",
-            "servidor": "Servidor 208",
+        "473917a2-12d1-4097-8d9e-076cb646d87a": {
+            "id": "473917a2-12d1-4097-8d9e-076cb646d87a",
+            "servidor": "Servidor 109",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-51LrYzKbAD",
@@ -1853,9 +1853,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "7510d270-634f-4d44-aed7-999447c082eb": {
-            "id": "7510d270-634f-4d44-aed7-999447c082eb",
-            "servidor": "Servidor 209",
+        "2af191db-9239-4924-a30c-4b9fd40c8d1c": {
+            "id": "2af191db-9239-4924-a30c-4b9fd40c8d1c",
+            "servidor": "Servidor 110",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-zxCu4QoWjR",
@@ -1870,9 +1870,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "f81808d0-c4eb-43d2-99e7-c7acd4529d99": {
-            "id": "f81808d0-c4eb-43d2-99e7-c7acd4529d99",
-            "servidor": "Servidor 210",
+        "12854f80-7c07-4377-ac5e-77ce2b54b0ca": {
+            "id": "12854f80-7c07-4377-ac5e-77ce2b54b0ca",
+            "servidor": "Servidor 111",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-bGFlqox8LJ",
@@ -1887,9 +1887,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "13f08c99-ee99-4e77-b9d4-fc9bbdf53503": {
-            "id": "13f08c99-ee99-4e77-b9d4-fc9bbdf53503",
-            "servidor": "Servidor 211",
+        "2e71f9e2-5cad-46f1-8e15-5c35a7f834c8": {
+            "id": "2e71f9e2-5cad-46f1-8e15-5c35a7f834c8",
+            "servidor": "Servidor 112",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-YYp0ZQQlRr",
@@ -1904,9 +1904,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "d48a7538-032a-4e88-8f3d-914d3319823c": {
-            "id": "d48a7538-032a-4e88-8f3d-914d3319823c",
-            "servidor": "Servidor 212",
+        "9550cf0a-1d1a-4e39-877f-1e3883ab7b1c": {
+            "id": "9550cf0a-1d1a-4e39-877f-1e3883ab7b1c",
+            "servidor": "Servidor 113",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-Xr20FwDmrt",
@@ -1921,9 +1921,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "2b189483-74fe-473e-baae-533b8b089884": {
-            "id": "2b189483-74fe-473e-baae-533b8b089884",
-            "servidor": "Servidor 213",
+        "a33e7ad4-3c3a-4ce6-8491-925cf72da819": {
+            "id": "a33e7ad4-3c3a-4ce6-8491-925cf72da819",
+            "servidor": "Servidor 114",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-b4F7qSknK8",
@@ -1938,9 +1938,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "36fee10f-7a15-4bad-8ac0-b7b3070ba14a": {
-            "id": "36fee10f-7a15-4bad-8ac0-b7b3070ba14a",
-            "servidor": "Servidor 214",
+        "a7508a55-6f73-41a7-8c47-6b3020a90449": {
+            "id": "a7508a55-6f73-41a7-8c47-6b3020a90449",
+            "servidor": "Servidor 115",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-InQTRw6epV",
@@ -1955,9 +1955,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "2490bca8-dc3d-431d-a920-9288e54fbb73": {
-            "id": "2490bca8-dc3d-431d-a920-9288e54fbb73",
-            "servidor": "Servidor 215",
+        "f8a4cdc5-c78f-4a57-a7a1-e8fe8a440403": {
+            "id": "f8a4cdc5-c78f-4a57-a7a1-e8fe8a440403",
+            "servidor": "Servidor 116",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-UfmV0tXrmt",
@@ -1972,9 +1972,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "185a1084-53b9-498f-9eff-da2ef257b3f5": {
-            "id": "185a1084-53b9-498f-9eff-da2ef257b3f5",
-            "servidor": "Servidor 216",
+        "4db42041-6c7f-4c22-9a0f-f17514578510": {
+            "id": "4db42041-6c7f-4c22-9a0f-f17514578510",
+            "servidor": "Servidor 117",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-9ufholMY1x",
@@ -1989,9 +1989,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "358e4c03-950a-45a2-bbb7-c6f78a543097": {
-            "id": "358e4c03-950a-45a2-bbb7-c6f78a543097",
-            "servidor": "Servidor 217",
+        "84e9a7e5-feaa-474e-b3a6-3cdc2b2fe134": {
+            "id": "84e9a7e5-feaa-474e-b3a6-3cdc2b2fe134",
+            "servidor": "Servidor 118",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-SfRLuHTYQN",
@@ -2006,9 +2006,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "dbd90632-d074-466f-b03d-f156f5579558": {
-            "id": "dbd90632-d074-466f-b03d-f156f5579558",
-            "servidor": "Servidor 218",
+        "fab8f7fb-7bb0-4a3c-93b5-e0ea255c9a1e": {
+            "id": "fab8f7fb-7bb0-4a3c-93b5-e0ea255c9a1e",
+            "servidor": "Servidor 119",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-vMw0qShr9K",
@@ -2023,9 +2023,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "58ca6404-efd2-4c4f-8c9e-a1bd5b44a149": {
-            "id": "58ca6404-efd2-4c4f-8c9e-a1bd5b44a149",
-            "servidor": "Servidor 219",
+        "ea6e0306-bbb3-49d3-b8f5-ae915acde3f7": {
+            "id": "ea6e0306-bbb3-49d3-b8f5-ae915acde3f7",
+            "servidor": "Servidor 120",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-q1Pbu4RcNv",
@@ -2040,9 +2040,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "471dfd3b-9789-4eda-bb74-1c08b86bfab7": {
-            "id": "471dfd3b-9789-4eda-bb74-1c08b86bfab7",
-            "servidor": "Servidor 220",
+        "896fcf70-3c16-49cb-998d-a973d78f9f39": {
+            "id": "896fcf70-3c16-49cb-998d-a973d78f9f39",
+            "servidor": "Servidor 121",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-ZB7pc5izcl",
@@ -2057,9 +2057,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "d838fa53-4e87-463a-91a9-5f6a03c7383c": {
-            "id": "d838fa53-4e87-463a-91a9-5f6a03c7383c",
-            "servidor": "Servidor 221",
+        "a1fe4865-3e5b-418a-9c67-29d652c01bd4": {
+            "id": "a1fe4865-3e5b-418a-9c67-29d652c01bd4",
+            "servidor": "Servidor 122",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-UjXQEbX8IR",
@@ -2074,9 +2074,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "b5c6879f-ba5d-4a90-bef0-6c490710f344": {
-            "id": "b5c6879f-ba5d-4a90-bef0-6c490710f344",
-            "servidor": "Servidor 222",
+        "877a21ed-cfdb-4712-af36-7ef8f09b5ced": {
+            "id": "877a21ed-cfdb-4712-af36-7ef8f09b5ced",
+            "servidor": "Servidor 123",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-BLLd1hZJHY",
@@ -2091,9 +2091,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "e253f6b3-15b7-459e-805c-069b2cf4fa83": {
-            "id": "e253f6b3-15b7-459e-805c-069b2cf4fa83",
-            "servidor": "Servidor 223",
+        "16549a26-4854-40a5-83da-32785321fc91": {
+            "id": "16549a26-4854-40a5-83da-32785321fc91",
+            "servidor": "Servidor 124",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-AbnHA9ULee",
@@ -2108,9 +2108,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "0f8335a8-69c4-4ce9-b974-7376cddf2cf2": {
-            "id": "0f8335a8-69c4-4ce9-b974-7376cddf2cf2",
-            "servidor": "Servidor 224",
+        "8bef8c73-1b92-4886-a9e2-7f92ffcdb0df": {
+            "id": "8bef8c73-1b92-4886-a9e2-7f92ffcdb0df",
+            "servidor": "Servidor 125",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-vDHAuDVNrV",
@@ -2125,9 +2125,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "b24ba097-352a-4f38-a7db-27693ce8d0f5": {
-            "id": "b24ba097-352a-4f38-a7db-27693ce8d0f5",
-            "servidor": "Servidor 225",
+        "17ab2b18-4978-4d58-b761-40b0cd936c02": {
+            "id": "17ab2b18-4978-4d58-b761-40b0cd936c02",
+            "servidor": "Servidor 126",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-jEpKCL8RAL",
@@ -2142,9 +2142,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "c95b5b53-3b71-4bcf-88ef-ffc75fc0596e": {
-            "id": "c95b5b53-3b71-4bcf-88ef-ffc75fc0596e",
-            "servidor": "Servidor 226",
+        "ce9d1832-8315-41e5-bb99-d9da9b8dad2a": {
+            "id": "ce9d1832-8315-41e5-bb99-d9da9b8dad2a",
+            "servidor": "Servidor 127",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "TouroVod-LCgUkiWjyA",
@@ -2159,9 +2159,9 @@
             "quantidade_de_filmes": 15302,
             "quantidade_de_series": 3880
         },
-        "d3fe60cd-07aa-4455-9b1a-cc72ba10b49a": {
-            "id": "d3fe60cd-07aa-4455-9b1a-cc72ba10b49a",
-            "servidor": "Servidor 227",
+        "13f10348-1461-4ffd-b310-c1cb76c5d691": {
+            "id": "13f10348-1461-4ffd-b310-c1cb76c5d691",
+            "servidor": "Servidor 128",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-WJsebGb1z9",
@@ -2176,9 +2176,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "e7bf6b04-0741-49d1-b498-99d71dfd5f01": {
-            "id": "e7bf6b04-0741-49d1-b498-99d71dfd5f01",
-            "servidor": "Servidor 228",
+        "e79c60c6-e1c9-47b9-b1a7-3ccb3cab146e": {
+            "id": "e79c60c6-e1c9-47b9-b1a7-3ccb3cab146e",
+            "servidor": "Servidor 129",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-POkYcBr381",
@@ -2193,9 +2193,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "3e35f2b6-fdf2-4aca-b291-5b6ec27911cb": {
-            "id": "3e35f2b6-fdf2-4aca-b291-5b6ec27911cb",
-            "servidor": "Servidor 229",
+        "10281647-ee5d-4633-8260-bc79d323cdb5": {
+            "id": "10281647-ee5d-4633-8260-bc79d323cdb5",
+            "servidor": "Servidor 130",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-KLxAIIZDfw",
@@ -2210,9 +2210,9 @@
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
         },
-        "f5318eb9-0bc5-4b3d-bb72-083241b3d42b": {
-            "id": "f5318eb9-0bc5-4b3d-bb72-083241b3d42b",
-            "servidor": "Servidor 230",
+        "43c2f3fd-4c5c-4d6f-8110-05350014ab36": {
+            "id": "43c2f3fd-4c5c-4d6f-8110-05350014ab36",
+            "servidor": "Servidor 131",
             "painel": "http://178.162.197.177:2052",
             "real": null,
             "usuario": "cprimemain-kovXQ6Apy7",
@@ -2226,40 +2226,6 @@
             "quantidade_de_canais": 40,
             "quantidade_de_filmes": 14603,
             "quantidade_de_series": 3809
-        },
-        "6a0b6597-6a3d-4c50-ad83-f3fdd9f00d02": {
-            "id": "6a0b6597-6a3d-4c50-ad83-f3fdd9f00d02",
-            "servidor": "Servidor 231",
-            "painel": null,
-            "real": null,
-            "usuario": null,
-            "senha": null,
-            "expira_em": null,
-            "conexoes_ativas": 0,
-            "conexoes_maximas": 1,
-            "status": null,
-            "mensagem": null,
-            "timezone": null,
-            "quantidade_de_canais": 0,
-            "quantidade_de_filmes": 0,
-            "quantidade_de_series": 0
-        },
-        "1c39317d-5b90-4942-a4c9-c932d8c6fc13": {
-            "id": "1c39317d-5b90-4942-a4c9-c932d8c6fc13",
-            "servidor": "Servidor 232",
-            "painel": null,
-            "real": null,
-            "usuario": null,
-            "senha": null,
-            "expira_em": null,
-            "conexoes_ativas": 0,
-            "conexoes_maximas": 1,
-            "status": null,
-            "mensagem": null,
-            "timezone": null,
-            "quantidade_de_canais": 0,
-            "quantidade_de_filmes": 0,
-            "quantidade_de_series": 0
         }
     }
-}
+    }
