@@ -18,7 +18,7 @@ const authxplus = require('./routes/authxplus-2.xyz.json');
 const uniplay = require('./routes/uniplayuhd.cdn23.click.json');
 const vipy = require('./routes/vipy.pro.json');
 const cebola = require('./routes/dns.cebola.pro.json');
-const cdn4k = require('./routes/cdn4k.info');
+const cdn4k = require('./routes/cdn4k.info.json');
 
 // Middleware para interpretar o corpo das requisições como JSON
 app.use(express.json());  // Adicionado para lidar com dados JSON
