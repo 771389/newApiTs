@@ -44,7 +44,13 @@
             "category_id": "8",
                "category_name": "vipy.pro",
                "parent_id": 0
-             }
+             },
+
+             {
+              "category_id": "9",
+                 "category_name": "cdn4k.info",
+                 "parent_id": 0
+               }
     
 ]
 

@@ -18,6 +18,7 @@ const authxplus = require('./routes/authxplus-2.xyz.json');
 const uniplay = require('./routes/uniplayuhd.cdn23.click.json');
 const vipy = require('./routes/vipy.pro.json');
 const cebola = require('./routes/dns.cebola.pro.json');
+const cdn4k = require('./routes/cdn4k.info');
 
 // Middleware para interpretar o corpo das requisições como JSON
 app.use(express.json());  // Adicionado para lidar com dados JSON
@@ -79,6 +80,9 @@ app.get('/routes/uniplayuhd.cdn23.click', (req, res) => res.json(uniplay));
 
 // Rota para retornar o arquivo vip.pro json
 app.get('/routes/vipy.pro', (req, res) => res.json(vipy));
+
+// Rota para retornar o arquivo cdn4k.info json
+app.get('/routes/cdn4k.info ', (req, res) => res.json(cdn4k));
 
 
 
