@@ -19,6 +19,7 @@ const vipy = require('./routes/vipy.pro.json');
 const cebola = require('./routes/dns.cebola.pro.json');
 const cdn4k = require('./routes/cdn4k.info.json');
 const visblue = require('./routes/vis.blue.json');
+const smartcdn = require('./routes/smart.cdn23.click.json');
 // Middleware para interpretar o corpo das requisições como JSON
 app.use(express.json());  // Adicionado para lidar com dados JSON
 
@@ -81,6 +82,8 @@ app.get('/routes/cdn4k.info', (req, res) => res.json(cdn4k));
 // Rota para retornar o arquivo vis.blue.info json
 app.get('/routes/vis.blue', (req, res) => res.json(visblue));
 
+// Rota para retornar o arquivo vis.blue.info json
+app.get('/routes/smart.cdn23.click', (req, res) => res.json(smartcdn));
 
 
 

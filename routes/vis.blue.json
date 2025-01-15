@@ -16,40 +16,7 @@
             "quantidade_de_canais": 0,
             "quantidade_de_filmes": 0,
             "quantidade_de_series": 0
-        },
-        "1450bd0f-fc82-489a-8658-c2391f6ed4ba": {
-            "id": "1450bd0f-fc82-489a-8658-c2391f6ed4ba",
-            "servidor": "Servidor 2",
-            "painel": null,
-            "real": null,
-            "usuario": null,
-            "senha": null,
-            "expira_em": null,
-            "conexoes_ativas": 0,
-            "conexoes_maximas": 1,
-            "status": null,
-            "mensagem": null,
-            "timezone": null,
-            "quantidade_de_canais": 0,
-            "quantidade_de_filmes": 0,
-            "quantidade_de_series": 0
-        },
-        "59c9556e-5673-4107-a8bd-1d0cf5729916": {
-            "id": "59c9556e-5673-4107-a8bd-1d0cf5729916",
-            "servidor": "Servidor 3",
-            "painel": null,
-            "real": null,
-            "usuario": null,
-            "senha": null,
-            "expira_em": null,
-            "conexoes_ativas": 0,
-            "conexoes_maximas": 1,
-            "status": null,
-            "mensagem": null,
-            "timezone": null,
-            "quantidade_de_canais": 0,
-            "quantidade_de_filmes": 0,
-            "quantidade_de_series": 0
+            
         }
     }
 }
