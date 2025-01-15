@@ -76,7 +76,7 @@ app.get('/routes/uniplayuhd.cdn23.click', (req, res) => res.json(uniplay));
 app.get('/routes/vipy.pro', (req, res) => res.json(vipy));
 
 // Rota para retornar o arquivo cdn4k.info json
-app.get('/routes/cdn4k.info ', (req, res) => res.json(cdn4k));
+app.get('/routes/cdn4k.info', (req, res) => res.json(cdn4k));
 
 
 
