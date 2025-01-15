@@ -62,7 +62,12 @@
                   "category_id": "11",
                      "category_name": "smart.cdn23.click",
                      "parent_id": 0
-                   }
+                   },
+                   {
+                    "category_id": "11",
+                       "category_name": "limpao.com",
+                       "parent_id": 0
+                     }
     
 ]
 

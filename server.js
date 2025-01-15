@@ -20,6 +20,7 @@ const cebola = require('./routes/dns.cebola.pro.json');
 const cdn4k = require('./routes/cdn4k.info.json');
 const visblue = require('./routes/vis.blue.json');
 const smartcdn = require('./routes/smart.cdn23.click.json');
+const limpao = require('./routes/limpao.com.json');
 // Middleware para interpretar o corpo das requisições como JSON
 app.use(express.json());  // Adicionado para lidar com dados JSON
 
@@ -84,6 +85,9 @@ app.get('/routes/vis.blue', (req, res) => res.json(visblue));
 
 // Rota para retornar o arquivo vis.blue.info json
 app.get('/routes/smart.cdn23.click', (req, res) => res.json(smartcdn));
+
+// Rota para retornar o arquivo vis.blue.info json
+app.get('/routes/limpao.com', (req, res) => res.json(limpao));
 
 
 
