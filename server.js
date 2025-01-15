@@ -13,8 +13,6 @@ const canais1 = require('./routes/84.16.253.11.json');
 const cineprime = require('./routes/178.162.197.177.json');
 const pegasus = require('./routes/pegasus.tvvip.live.json');
 const categorias = require('./routes/categorias.json');
-
-const cebola = require('./routes/dns.cebola.pro.json');
 const authxplus = require('./routes/authxplus-2.xyz.json');
 const uniplay = require('./routes/uniplayuhd.cdn23.click.json');
 const vipy = require('./routes/vipy.pro.json');
