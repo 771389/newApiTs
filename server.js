@@ -23,7 +23,9 @@ const smartcdn = require('./routes/smart.cdn23.click.json');
 const limpao = require('./routes/limpao.com.json');
 const centralmago = require('./routes/centralmago.click.json');
 const arrepiado = require('./routes/arrepiado.xyz.json');
-
+const equipeclick = require('./routes/equipe.click.json');
+const xciptv = require('./routes/xciptv.8888play.one.json');
+const niutu = require('./routes/niutu.tel.json');
 
 
 // Middleware para interpretar o corpo das requisições como JSON
@@ -99,6 +101,13 @@ app.get('/routes/centralmago.click', (req, res) => res.json(centralmago));
 
 // Rota para retornar o arquivo vis.blue.info json
 app.get('/routes/arrepiado.xyz', (req, res) => res.json(arrepiado));
+
+// Rota para retornar o arquivo vis.blue.info json
+app.get('/routes/equipe.click', (req, res) => res.json(equipeclick));
+
+app.get('/routes/xciptv.8888play.one', (req, res) => res.json(xciptv));
+
+app.get('/routes/niutu.tel', (req, res) => res.json(niutu));
 
 
 

@@ -79,7 +79,24 @@
                         "category_id": "14",
                            "category_name": "arrepiado.xyz",
                            "parent_id": 0
-                         }
+                         },
+
+                         {
+                          "category_id": "15",
+                             "category_name": "equipe.click",
+                             "parent_id": 0
+                           },
+                           {
+                            "category_id": "16",
+                               "category_name": "xciptv.8888play.one",
+                               "parent_id": 0
+                             },
+                             {
+                              "category_id": "17",
+                                 "category_name": "niutu.tel",
+                                 "parent_id": 0
+                               }
+        
       
     
 ]
