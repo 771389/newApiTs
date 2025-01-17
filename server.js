@@ -55,24 +55,22 @@ fs.readdirSync(routesPath).forEach(file => {
 
 // Rota para calcular a soma de todos os itens dentro da chave "servidores"
 app.get('/routes/soma-total', (req, res) => {
-  let total = 0;
+  let somaTotal = 0;
 
-  // Iterar sobre os conteúdos de todos os arquivos JSON carregados
+  // Iterar sobre todos os arquivos JSON carregados
   Object.values(jsonRoutes).forEach(jsonData => {
-    // Verificar se a chave "servidores" existe e é um array
-    if (jsonData.servidores && Array.isArray(jsonData.servidores)) {
-      jsonData.servidores.forEach(servidor => {
-        // Verificar se o valor é numérico antes de somar
-        if (typeof servidor.valor === 'number') {
-          total += servidor.valor;
-        }
-      });
+    if (jsonData.servidores) {
+      // Para cada arquivo JSON, contar o número de servidores
+      somaTotal += Object.keys(jsonData.servidores).length;
     }
   });
 
-  // Retornar o total calculado
-  res.json({ somaTotal: total });
+  // Retornar o total de servidores contados
+  res.json({
+    somaTotal
+  });
 });
+
 
 
 // Middleware para tratar erros
