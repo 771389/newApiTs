@@ -1,127 +1,84 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const { expressjwt: expressJwt } = require('express-jwt');  // Corrigido para a importação correta
+const { expressjwt: expressJwt } = require('express-jwt');
+const fs = require('fs');
+const path = require('path');
 const app = express();
 const port = process.env.PORT || 3001;
 
 // Chave secreta para gerar e verificar os tokens
-const SECRET_KEY = 'androidx&clubedosfilmes';
-
-// Carregar os arquivos JSON
-const adultos = require('./routes/server.iptvxxx.net.json');
-const canais1 = require('./routes/84.16.253.11.json');
-const cineprime = require('./routes/178.162.197.177.json');
-const pegasus = require('./routes/pegasus.tvvip.live.json');
-const categorias = require('./routes/categorias.json');
-const authxplus = require('./routes/authxplus-2.xyz.json');
-const uniplay = require('./routes/uniplayuhd.cdn23.click.json');
-const vipy = require('./routes/vipy.pro.json');
-const cebola = require('./routes/dns.cebola.pro.json');
-const cdn4k = require('./routes/cdn4k.info.json');
-const visblue = require('./routes/vis.blue.json');
-const smartcdn = require('./routes/smart.cdn23.click.json');
-const limpao = require('./routes/limpao.com.json');
-const centralmago = require('./routes/centralmago.click.json');
-const arrepiado = require('./routes/arrepiado.xyz.json');
-const equipeclick = require('./routes/equipe.click.json');
-const xciptv = require('./routes/xciptv.8888play.one.json');
-const niutu = require('./routes/niutu.tel.json');
-
+const SECRET_KEY = process.env.SECRET_KEY || 'androidx&clubedosfilmes';
 
 // Middleware para interpretar o corpo das requisições como JSON
-app.use(express.json());  // Adicionado para lidar com dados JSON
+app.use(express.json());
 
 // Middleware para verificar o token
 const authMiddleware = expressJwt({
   secret: SECRET_KEY,
   algorithms: ['HS256']
 }).unless({
-  path: ['/login'] // Apenas a rota de login não exige autenticação
+  path: ['/login', '/routes/soma-total'] // Login e soma não exigem autenticação
 });
 
 // Rota para fazer login e gerar o token
 app.post('/login', (req, res) => {
   const { usuario, senha } = req.body;
 
-  // Se as credenciais estiverem corretas, gera o token
   if (usuario === 'vitor' && senha === 'spazio3132') {
-    const token = jwt.sign({ usuario }, SECRET_KEY, { expiresIn: '1h' }); // Token expira em 1 hora
+    const token = jwt.sign({ usuario }, SECRET_KEY, { expiresIn: '1h' });
     return res.json({ token });
   }
 
   return res.status(401).json({ erro: 'Usuário ou senha inválidos.' });
 });
 
-// Proteger as rotas com o middleware de autenticação
-app.use(authMiddleware);
+// Diretório onde os arquivos JSON estão armazenados
+const routesPath = path.join(__dirname, 'routes');
 
-// Rota para retornar o arquivo adultos.json
-app.get('/routes/server.iptvxxx.net', (req, res) => res.json(adultos));
+// Variável para armazenar os arquivos JSON carregados
+const jsonRoutes = {};
 
-// Rota para retornar o arquivo canais1.json
-app.get('/routes/84.16.253.11', (req, res) => res.json(canais1));
+// Carregamento dinâmico dos arquivos JSON e criação das rotas
+fs.readdirSync(routesPath).forEach(file => {
+  if (file.endsWith('.json')) {
+    const routeName = `/routes/${file.replace('.json', '')}`;
+    const filePath = path.join(routesPath, file);
+    const fileContent = require(filePath);
 
-// Rota para retornar o arquivo cineprime.json
-app.get('/routes/178.162.197.177', (req, res) => res.json(cineprime));
+    jsonRoutes[routeName] = fileContent;
 
-// Rota para retornar o arquivo pegasus.json
-app.get('/routes/pegasus.tvvip.live', (req, res) => res.json(pegasus));
+    // Criar rota para cada arquivo JSON
+    app.get(routeName, (req, res) => res.json(fileContent));
+    console.log(`Rota criada: GET ${routeName}`);
+  }
+});
 
+// Rota para calcular a soma de todos os itens dentro da chave "servidores"
+app.get('/routes/soma-total', (req, res) => {
+  let total = 0;
 
-// Rota para retornar o arquivo categorias.json
-app.get('/routes/categorias', (req, res) => res.json(categorias));
+  // Iterar sobre os conteúdos de todos os arquivos JSON carregados
+  Object.values(jsonRoutes).forEach(jsonData => {
+    if (jsonData.servidores && Array.isArray(jsonData.servidores)) {
+      // Somar valores dentro da chave "servidores"
+      jsonData.servidores.forEach(servidor => {
+        if (typeof servidor.valor === 'number') { // Ajuste 'valor' para a chave que contém os números
+          total += servidor.valor;
+        }
+      });
+    }
+  });
 
-// Rota para retornar o arquivo authplus.json
-app.get('/routes/authxplus-2.xyz', (req, res) => res.json(authxplus));
+  res.json({ somaTotal: total });
+});
 
-
-// Rota para retornar o arquivo dns.cebola.pro json
-app.get('/routes/dns.cebola.pro', (req, res) => res.json(cebola));
-
-// Rota para retornar o arquivo uniplayuhd.cdn23.click json
-app.get('/routes/uniplayuhd.cdn23.click', (req, res) => res.json(uniplay));
-
-// Rota para retornar o arquivo vip.pro json
-app.get('/routes/vipy.pro', (req, res) => res.json(vipy));
-
-// Rota para retornar o arquivo cdn4k.info json
-app.get('/routes/cdn4k.info', (req, res) => res.json(cdn4k));
-
-// Rota para retornar o arquivo vis.blue.info json
-app.get('/routes/vis.blue', (req, res) => res.json(visblue));
-
-// Rota para retornar o arquivo vis.blue.info json
-app.get('/routes/smart.cdn23.click', (req, res) => res.json(smartcdn));
-
-// Rota para retornar o arquivo vis.blue.info json
-app.get('/routes/limpao.com', (req, res) => res.json(limpao));
-
-// Rota para retornar o arquivo vis.blue.info json
-app.get('/routes/centralmago.click', (req, res) => res.json(centralmago));
-
-// Rota para retornar o arquivo vis.blue.info json
-app.get('/routes/arrepiado.xyz', (req, res) => res.json(arrepiado));
-
-// Rota para retornar o arquivo vis.blue.info json
-app.get('/routes/equipe.click', (req, res) => res.json(equipeclick));
-
-app.get('/routes/xciptv.8888play.one', (req, res) => res.json(xciptv));
-
-app.get('/routes/niutu.tel', (req, res) => res.json(niutu));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Middleware para tratar erros
+app.use((err, req, res, next) => {
+  if (err.name === 'UnauthorizedError') {
+    return res.status(401).json({ erro: 'Token inválido ou não fornecido.' });
+  }
+  next(err);
+});
 
 // Inicia o servidor
-app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
+app.listen(port, () => console.log(`Servidor rodando em http://localhost:${port}`));
