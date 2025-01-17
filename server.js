@@ -59,18 +59,21 @@ app.get('/routes/soma-total', (req, res) => {
 
   // Iterar sobre os conteúdos de todos os arquivos JSON carregados
   Object.values(jsonRoutes).forEach(jsonData => {
+    // Verificar se a chave "servidores" existe e é um array
     if (jsonData.servidores && Array.isArray(jsonData.servidores)) {
-      // Somar valores dentro da chave "servidores"
       jsonData.servidores.forEach(servidor => {
-        if (typeof servidor.valor === 'number') { // Ajuste 'valor' para a chave que contém os números
+        // Verificar se o valor é numérico antes de somar
+        if (typeof servidor.valor === 'number') {
           total += servidor.valor;
         }
       });
     }
   });
 
+  // Retornar o total calculado
   res.json({ somaTotal: total });
 });
+
 
 // Middleware para tratar erros
 app.use((err, req, res, next) => {
